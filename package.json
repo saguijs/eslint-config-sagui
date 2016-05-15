@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-sagui",
+  "version": "1.0.0",
+  "description": "ESLint config used by Sagui ",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saguijs/eslint-config-sagui.git"
+  },
+  "keywords": [
+    "config",
+    "eslint",
+    "eslintconfig",
+    "sagui"
+  ],
+  "author": "Paulo Ragonha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saguijs/eslint-config-sagui/issues"
+  },
+  "homepage": "https://github.com/saguijs/eslint-config-sagui#readme",
+  "dependencies": {
+    "eslint-config-standard": "5.1.0",
+    "eslint-config-standard-jsx": "1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^7.0.1"
+  }
+}
