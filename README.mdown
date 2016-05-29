@@ -8,3 +8,9 @@
 [ESLint](http://eslint.org/docs/developer-guide/shareable-configs) preset used by [Sagui](http://sagui.js.org/).
 
 It is based on [Standard](http://standardjs.com/) plus some testing environment rules for [Jasmine](http://jasmine.github.io/) and [Sinon](http://sinonjs.org/).
+
+## Install
+
+```
+npm install --save-dev eslint-config-sagui eslint eslint-config-standard eslint-config-standard-jsx
+```

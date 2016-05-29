@@ -22,7 +22,8 @@
     "url": "https://github.com/saguijs/eslint-config-sagui/issues"
   },
   "homepage": "https://github.com/saguijs/eslint-config-sagui#readme",
-  "dependencies": {
+  "peerDependencies": {
+    "eslint": "~2.2.0",
     "eslint-config-standard": "5.1.0",
     "eslint-config-standard-jsx": "1.1.1"
   },
