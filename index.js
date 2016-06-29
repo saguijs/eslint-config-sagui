@@ -10,5 +10,7 @@ module.exports = {
 
   globals: {
     sinon: false
-  }
+  },
+
+  parser: 'babel-eslint'
 }
