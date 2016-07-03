@@ -4,7 +4,7 @@
   "description": "ESLint config used by Sagui ",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "eslint -c index.js test/fixture.js"
   },
   "repository": {
     "type": "git",
@@ -23,11 +23,13 @@
   },
   "homepage": "https://github.com/saguijs/eslint-config-sagui#readme",
   "peerDependencies": {
-    "eslint": "~2.2.0",
+    "eslint": "2.2.0",
     "eslint-config-standard": "5.1.0",
     "eslint-config-standard-jsx": "1.1.1"
   },
   "devDependencies": {
-    "standard": "^7.0.1"
+    "eslint": "2.2.0",
+    "eslint-config-standard": "5.1.0",
+    "eslint-config-standard-jsx": "1.1.1"
   }
 }
