@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-sagui",
-  "version": "1.0.1",
-  "description": "ESLint config used by Sagui ",
+  "version": "2.0.0",
+  "description": "ESLint config used by Sagui",
   "main": "index.js",
   "scripts": {
     "test": "eslint -c index.js test/fixture.js"
