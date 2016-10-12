@@ -8,9 +8,5 @@ module.exports = {
     jasmine: true
   },
 
-  globals: {
-    sinon: false
-  },
-
   parser: 'babel-eslint'
 }
